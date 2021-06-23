@@ -3,10 +3,16 @@
 
 @import "{{ site.theme }}";
 
+$orange: #ff803c;
+
+header {
+    border-color: $orange;
+}
+
 header h1 {
-    color: #ff803c;
+    color: $orange;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ff803c;
+    color: $orange;
 }
